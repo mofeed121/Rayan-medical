@@ -1,86 +1,51 @@
-
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="he" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rayan Medical Service</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>שירותים רפואיים ראיאן</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      background: #f5f5f5;
+      font-family: Arial, sans-serif;
+      background-color: #f2f8fc;
+      text-align: right;
+      padding: 40px;
+      direction: rtl;
+    }
+    .header {
       text-align: center;
     }
-
-    .hero-image {
-      width: 100%;
-      max-width: 800px;
+    .logo {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #0077cc;
+    }
+    .contact-info {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 500px;
       margin: 0 auto;
-      display: block;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-
-    .buttons-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-      gap: 20px;
-      padding: 30px;
-      max-width: 600px;
-      margin: auto;
-    }
-
-    .circle-button {
-      background-color: #004080;
-      color: white;
-      border-radius: 50%;
-      width: 100px;
-      height: 100px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      text-decoration: none;
-      font-size: 14px;
-      transition: 0.3s;
-    }
-
-    .circle-button.red { background-color: #e60000; }
-    .circle-button.green { background-color: #25D366; }
-    .circle-button:hover {
-      transform: scale(1.05);
-    }
-
-    .circle-button i {
-      font-size: 22px;
-      margin-bottom: 5px;
+    .contact-info p {
+      font-size: 18px;
+      margin: 10px 0;
     }
   </style>
 </head>
 <body>
-
-  <img src="hero_image.jpg" alt="Rayan Ambulance" class="hero-image">
-
-  <div class="buttons-container">
-    <a href="tel:0508775960" class="circle-button red">
-      <i class="fas fa-phone"></i> اتصال
-    </a>
-    <a href="tel:*2164" class="circle-button red">
-      <i class="fas fa-ambulance"></i> طوارئ
-    </a>
-    <a href="https://wa.me/972508775960" class="circle-button green">
-      <i class="fab fa-whatsapp"></i> واتساب
-    </a>
-    <a href="mailto:Mofeed.ryan1975@gmail.com" class="circle-button">
-      <i class="fas fa-envelope"></i> بريد
-    </a>
-    <a href="#" class="circle-button">
-      <i class="fas fa-fax"></i> فاكس
-    </a>
-    <a href="#" class="circle-button">
-      <i class="fas fa-map-marker-alt"></i> כאבול
-    </a>
+  <div class="header">
+    <img src="logo.png" alt="לוגו ראיאן" class="logo">
+    <h1>שירותים רפואיים ראיאן</h1>
   </div>
 
+  <div class="contact-info">
+    <p><strong>טלפון:</strong> 0508775960</p>
+    <p><strong>חירום:</strong> *2164</p>
+    <p><strong>אימייל:</strong> Mofeed.ryan1975@gmail.com</p>
+    <p><strong>פקס:</strong> 048266456</p>
+  </div>
 </body>
 </html>
